@@ -1,0 +1,131 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #495057;
+    background-image: url('/black-studio-room-background-black-cement-wall-interior-texture-display-products_322958-285.avif');
+    background-repeat: no-repeat;         
+    background-size: cover; 
+    background-position: center center;   /* Center the background image */
+  }
+  
+      header {
+        background-color: #343a40;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+      }
+  
+      nav {
+        background-color: #007bff;
+        padding: 0.5em;
+        text-align: center;
+      }
+  
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 1em;
+        margin: 0.5em;
+        border-radius: 5px;
+        background-color: #0056b3;
+      }
+  
+      main {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 0.1 controls the transparency of the shadow.*/
+        color: #495057;
+      }
+  
+      h1, h2, h3 {
+        color: #007bff;
+      }
+  
+      p {
+        line-height: 1.6;
+      }
+  
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+  
+      footer {
+        text-align: center;
+        padding: 1em;
+        background-color: #343a40;
+        color: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+  
+      form {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+  
+      label {
+        flex-basis: 100%; /* set the initial size of a flex item along the main axis.*/
+        margin-bottom: 5px;
+      }
+  
+      input, textarea, select {
+        flex: 1;
+        padding: 8px;
+        box-sizing: border-box;
+      }
+  
+      .form-group {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+      }
+  
+      .form-group textarea {
+        vertical-align: top;
+        resize: vertical;
+      }
+  
+      .form-group input[type="checkbox"],
+      .form-group input[type="radio"] {
+        margin-top: 5px;
+      }
+  
+      .decoration a{
+        text-decoration: none; /* Remove underline from the link*/
+      }
+  
+      .styled-table {
+        width: 100%;
+        border-collapse: collapse;  /*control the rendering of borders of table cells*/
+        margin: 25px 0;
+        font-size: 18px;
+        text-align: left;
+    }
+  
+    .styled-table th,
+    .styled-table td {
+        padding: 12px 15px;
+        border-bottom: 1px solid #ddd;
+    }
+  
+    .styled-table th {
+        background-color: #343a40;
+        color: #fff;
+        cursor: pointer;
+    }
+  
+    .styled-table tbody tr:hover {
+        background-color: #f5f5f5;
+    }
+    

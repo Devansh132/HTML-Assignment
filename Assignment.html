@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresh Web Design</title>
+ <link rel="stylesheet" href="Assign.css">        <!-- link external style sheet -->
+</head>
+
+<body>
+
+  <header>
+    <h1>Fresh Web Design</h1>
+  </header>
+
+  <nav>      <!--navbar items -->
+    <a href="#elements">HTML Elements</a>
+    <a href="#formatting">Formatting & Semantics</a>
+    <a href="#forms">HTML Forms</a>
+    <a href="#tables">Tables</a>
+    <a href="#links">Links & Images</a>
+  </nav>
+
+  <main>
+    <section id="elements">
+      <h2>HTML Elements and Attributes</h2>
+      <p>This part defines various HTML elements and attributes.</p>
+      <ul>
+        <li>Headings => <strong>&lt;h1&gt;..to..&lt;h6&gt;</strong> </li>
+        <li>Paragraph => <strong>&lt;p&gt;</strong></li>
+        <li>Lists => <strong>Unordered -> &lt;ul&gt; , Ordered -> &lt;ol&gt; , List -> &lt;li&gt;</strong></li>
+      </ul>
+      <p class="important-text"> => <strong>Nothing is impossible , the word itself says i'm impossible</strong> <= </p>
+    </section>
+
+    <section id="formatting">
+      <h2>Formatting and Semantics</h2>
+      <p>This part defines the formatting and semantic HTML tags.</p>
+      <p>Bold :- <strong>Bold</strong></p>
+      <p>Italic :- <em>Italic</em></p> 
+      <p>Underline :- <u>Underline</u></p> 
+      <p>Strikethrough :- <s>Strikethrough</s></p>
+      <header>
+        <h3>Header Section</h3>
+      </header>
+
+      <article>
+        <h4>Article Section</h4>
+        <p>Heyy guys this is an article section...</p>
+      </article>
+
+      <footer>
+        <p>© 2023 WebDev Basics</p>
+      </footer>
+    </section>
+
+    <section id="forms">
+      <h2>HTML Forms</h2>
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" autocomplete="off" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>Gender:</label>
+          <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+          </div>
+          <div>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="subscribe">Did you learn anything from this assignment:</label>
+          <div>
+            <input type="checkbox" id="subscribe" name="subscribe" checked>
+            <label for="subscribe">Yes, please!</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="city">Select a city:</label>
+          <select id="city" name="city">
+            <option value="Mirzapur">Mirzapur</option>
+            <option value="Prayagraz">Prayagraz</option>
+            <option value="Varanasi">Varanasi</option>
+          </select>
+        </div>
+
+        <div>
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </section>
+
+    <section id="tables">
+      <h2>Tables</h2>
+      <table class="styled-table" border="1">  <!--border="1" =>  table should have a border with a width of 1 pixel -->
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ram</td>
+            <td>30</td>
+            <td>India</td>
+          </tr>
+          <tr>
+            <td>Lakshman</td>
+            <td>27</td>
+            <td>Japan</td>
+          </tr>
+          <tr>
+            <td>Bharat</td>
+            <td>28</td>
+            <td>America</td>
+          </tr>
+          <tr>
+            <td>Shatrughna</td>
+            <td>24</td>
+            <td>Australia</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="links">
+      <h2>Links, URLs, and Images</h2>
+      <p class="decoration">Come To See <a href="https://webflow.com/web-design-art-history" target="_blank">Something Amazing Here</a>.</p>
+      <p class="decoration">Revision <a href="#elements">HTML Elements</a>.</p>
+      <img src="/landscapewp4600617.webp" alt="A beautiful landscape">
+      <img src="/spencer-davis-GCm0tha8IGY-unsplash.jpg" alt="A royal car">
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Fresh Web Design</p>
+  </footer>
+
+</body>
+
+</html>
